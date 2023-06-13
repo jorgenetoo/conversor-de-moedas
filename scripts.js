@@ -45,7 +45,7 @@ function changeCurrency() {
     const currencyName = document.getElementById("currency-name")
     const currencyImage = document.querySelector(".currency-img")
 
-    if (currencySelect.value == "dolar") {
+    if (currencySelect.value == "dollar") {
         currencyName.innerHTML = "Dólar Americano"
         currencyImage.src = "./assets/dolar.png"
     }
@@ -55,7 +55,7 @@ function changeCurrency() {
         currencyImage.src = "./assets/euro.png"
     }
 
-    if (currencySelect.value == "libras") {
+    if (currencySelect.value == "libra") {
         currencyName.innerHTML = "Libra Esterlina"
         currencyImage.src = ".assets/libra 1.png"
     }
